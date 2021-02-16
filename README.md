@@ -10,7 +10,8 @@ To deploy this project on the Sandbox, make sure you setup 3 secrets in your git
 - OPENSHIFT_TOKEN
 
 Where to find the above. If you havent signed up to the [Red Hat Developer Sandbox for Openshift](https://developers.rehdat.com/developer-sandbox) , you should do it now. Once logged into your new Openshift Sandbox environment click on the right hand corner where it states your login name, and then "Copy login command"
-![Copy Login Command](images/copyLoginCommand.jpg)
+
+![Copy Login Command](images/copyLoginCommand.png)
 
 You will find the token and the server url at that link. 
 e.g. 
@@ -21,8 +22,9 @@ oc login --token=XXXX --server=https://api.XXX.openshiftapps.com:6443
 Dont forget to add the namespace you want to deploy to. in my case I use the `-dev` namespace.
 
 
-To check if the deployment was successful you can also check the Github action in your repo. 
-![Deployed App](images/deployedApp.jpg)
+To check if the deployment was successful you can also check the Github action in your repo.
+ 
+![Deployed App](images/deployedApp.png)
 
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
